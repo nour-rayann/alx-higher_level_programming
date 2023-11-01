@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def fizzbuzz():
-    for i in range(0, 101):
+    for i in range(1, 101):
         copy = i
         if copy % 3 == 0 and copy % 5 == 0:
             print("FizzBuzz", end=" ")
