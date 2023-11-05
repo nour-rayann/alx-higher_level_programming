@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 def no_c(my_string):
-    my_string = list(my_string)
-    n = my_string.count('c')
+    new_string = list(my_string)
+    n = new_string.count('c')
     if n > 0:
         while n:
-            my_string.remove('c')
+            new_string.remove('c')
             n = n - 1
-    n = my_string.count('C')
+    n = new_string.count('C')
     if n > 0:
         while n:
-            my_string.remove('C')
+            new_string.remove('C')
             n = n - 1
-    my_string = ''.join(my_string)
-    return my_string
+    new_string = ''.join(new_string)
+    return new_string
